@@ -84,6 +84,16 @@
 	organization={IEEE}
 }
 
+%direct visual inertial SLAM
+@inproceedings{concha2016visual,
+	title={Visual-inertial direct SLAM},
+	author={Concha, Alejo and Loianno, Giuseppe and Kumar, Vijay and Civera, Javier},
+	booktitle={2016 IEEE international conference on robotics and automation (ICRA)},
+	pages={1331--1338},
+	year={2016},
+	organization={IEEE}
+}
+
 #Lidar with feature based SLAM
 @inproceedings{graeter2018limo,
 	title={Limo: Lidar-monocular visual odometry},
@@ -175,6 +185,23 @@
 	publisher={Elsevier}
 }
 
+%Siddarth Scemantic Labeling SLAM
+@phdthesis{kaki2018exploiting,
+	title={Exploiting a Prior 3D Map for Object Recognition},
+	author={Kaki, Siddarth},
+	year={2018}
+}
+
+% scemantic SLAM
+@inproceedings{bowman2017probabilistic,
+	title={Probabilistic data association for semantic slam},
+	author={Bowman, Sean L and Atanasov, Nikolay and Daniilidis, Kostas and Pappas, George J},
+	booktitle={2017 IEEE international conference on robotics and automation (ICRA)},
+	pages={1722--1729},
+	year={2017},
+	organization={IEEE}
+}
+
 % centralized slam
 @inproceedings{schmuck2017multi,
 	title={Multi-uav collaborative monocular slam},
@@ -183,6 +210,38 @@
 	pages={3863--3870},
 	year={2017},
 	organization={IEEE}
+}
+
+% ORB
+@inproceedings{rublee2011orb,
+	title={ORB: An efficient alternative to SIFT or SURF},
+	author={Rublee, Ethan and Rabaud, Vincent and Konolige, Kurt and Bradski, Gary},
+	booktitle={2011 International conference on computer vision},
+	pages={2564--2571},
+	year={2011},
+	organization={Ieee}
+}
+
+% SURF
+@inproceedings{bay2006surf,
+	title={Surf: Speeded up robust features},
+	author={Bay, Herbert and Tuytelaars, Tinne and Van Gool, Luc},
+	booktitle={European conference on computer vision},
+	pages={404--417},
+	year={2006},
+	organization={Springer}
+}
+
+% SIFT
+@article{lowe2004distinctive,
+	title={Distinctive image features from scale-invariant keypoints},
+	author={Lowe, David G},
+	journal={International journal of computer vision},
+	volume={60},
+	number={2},
+	pages={91--110},
+	year={2004},
+	publisher={Springer}
 }
 
 #UKF
@@ -221,6 +280,15 @@
 	organization={Springer}
 }
 
+% generic modern bundle adjustment slam
+@inproceedings{liu2018ice,
+	title={Ice-ba: Incremental, consistent and efficient bundle adjustment for visual-inertial slam},
+	author={Liu, Haomin and Chen, Mingyu and Zhang, Guofeng and Bao, Hujun and Bao, Yingze},
+	booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+	pages={1974--1982},
+	year={2018}
+}
+
 %G-FOLD
 @inproceedings{acikmese2012g,
 	title={G-fold: A real-time implementable fuel optimal large divert guidance algorithm for planetary pinpoint landing},
@@ -247,10 +315,45 @@
 	year={2018}
 }
 
+%EKF SLAM consistency
+@inproceedings{bailey2006consistency,
+	title={Consistency of the EKF-SLAM algorithm},
+	author={Bailey, Tim and Nieto, Juan and Guivant, Jose and Stevens, Michael and Nebot, Eduardo},
+	booktitle={2006 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+	pages={3562--3568},
+	year={2006},
+	organization={IEEE}
+}
+
 
 % ----------------------------------------------------------------------------------------
 % ----------------------------------------- Journal Articles -----------------------------
 % ----------------------------------------------------------------------------------------
+
+%obersvability and consistency of EKF SLAM
+@article{huang2010observability,
+	title={Observability-based rules for designing consistent EKF SLAM estimators},
+	author={Huang, Guoquan P and Mourikis, Anastasios I and Roumeliotis, Stergios I},
+	journal={The International Journal of Robotics Research},
+	volume={29},
+	number={5},
+	pages={502--528},
+	year={2010},
+	publisher={SAGE Publications Sage UK: London, England}
+}
+
+%observability and consistency of visual inertial SLAM
+@article{hesch2014camera,
+	title={Camera-IMU-based localization: Observability analysis and consistency improvement},
+	author={Hesch, Joel A and Kottas, Dimitrios G and Bowman, Sean L and Roumeliotis, Stergios I},
+	journal={The International Journal of Robotics Research},
+	volume={33},
+	number={1},
+	pages={182--201},
+	year={2014},
+	publisher={SAGE Publications Sage UK: London, England}
+}
+
 @ARTICLE{ahn_chen_07,
   AUTHOR =       {Ahn, Hyo-Sung and Chen, YangQuan and Moore, Kevin L.},
   TITLE =        {{Iterative} {Learning} {Control}: Brief Survey and Catagorization},
@@ -259,6 +362,17 @@
   volume =       {37},
   number =       {6},
   pages =        {1099-1121},
+}
+ % ORB SLAM 1
+@article{mur2015orb,
+	title={ORB-SLAM: a versatile and accurate monocular SLAM system},
+	author={Mur-Artal, Raul and Montiel, Jose Maria Martinez and Tardos, Juan D},
+	journal={IEEE transactions on robotics},
+	volume={31},
+	number={5},
+	pages={1147--1163},
+	year={2015},
+	publisher={IEEE}
 }
 
 %Visual Intertial SLAM
@@ -437,6 +551,51 @@
 	number={3},
 	pages={1688--1697},
 	year={2015},
+	publisher={IEEE}
+}
+
+% hilbert map rao blackwell particle filter SLAM
+@article{vallicrosa2018h,
+	title={H-slam: Rao-blackwellized particle filter slam using hilbert maps},
+	author={Vallicrosa, Guillem and Ridao, Pere},
+	journal={Sensors},
+	volume={18},
+	number={5},
+	pages={1386},
+	year={2018},
+	publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+% rao blackwell particle filter SLAM
+@article{jo2018efficient,
+	title={Efficient Grid-Based Rao--Blackwellized Particle Filter SLAM With Interparticle Map Sharing},
+	author={Jo, HyungGi and Cho, Hae Min and Jo, Sungjin and Kim, Euntai},
+	journal={IEEE/ASME Transactions on Mechatronics},
+	volume={23},
+	number={2},
+	pages={714--724},
+	year={2018},
+	publisher={IEEE}
+}
+
+% rao blackwell particle filter SLAM
+@article{chen2019rbpf,
+	title={RBPF-MSIS: Toward Rao-Blackwellized Particle Filter SLAM for Autonomous Underwater Vehicle With Slow Mechanical Scanning Imaging Sonar},
+	author={Chen, Ling and Yang, Aolei and Hu, Huosheng and Naeem, Wasif},
+	journal={IEEE Systems Journal},
+	year={2019},
+	publisher={IEEE}
+}
+
+%EKF SLAM
+@article{paz2008divide,
+	title={Divide and conquer: EKF SLAM in $ o (n) $},
+	author={Paz, Lina M and Tard{\'o}s, Juan D and Neira, Jos{\'e}},
+	journal={IEEE Transactions on Robotics},
+	volume={24},
+	number={5},
+	pages={1107--1120},
+	year={2008},
 	publisher={IEEE}
 }
 
