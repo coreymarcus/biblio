@@ -1,0 +1,2 @@
+# This is the git command to update the biblio subtree
+git subtree pull --prefix biblio/ https://github.com/coreymarcus/biblio.git master --squash
